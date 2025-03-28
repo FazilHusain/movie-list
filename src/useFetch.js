@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 // setting the api link
-export const API_URL = "/api/?apikey=8f09357e";
+export const API_URL = "https://movie-list-fx49.onrender.com/api/?apikey=8f09357e";
 
 const useFetch = (apiParams) => {
   const [isLoading, setIsLoading] = useState(true);
