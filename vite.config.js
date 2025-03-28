@@ -5,7 +5,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://www.omdbapi.com',
+        target: 'https://movie-list-fx49.onrender.com/https://www.omdbapi.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
